@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Approval Queue</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+	<link rel="stylesheet" href="/static/mod/style.css">
+</head>
+<body>
+
+<header>
+	<h1>Approval (Topics)</h1>
+</header>
+<section id="topics"></section>
+<footer id="footer">
+	<form id="submitCode">
+		<input type="password" id="code" placeholder="Password:" autocomplete="off" />
+	</form>
+</footer>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/shared.js"></script>
+<script src="/static/mod/update.js"></script>
+</html>

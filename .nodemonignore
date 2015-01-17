@@ -1,0 +1,4 @@
+#ignore all static files
+/public/*
+/mongodb/*
+/views/

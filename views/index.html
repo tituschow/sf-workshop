@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forum Topics</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+	<link rel="stylesheet" href="/static/client/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+
+<header id="header">
+	<h1>Forum Topics</h1>
+</header>
+<section id="topics"></section>
+<footer>
+	<form id="submitTopic">
+		<input type="text" id="topic" placeholder="Topic:" autocomplete="off" spellcheck="on" />
+	</form>
+</footer>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/shared.js"></script>
+<script src="/static/client/update.js"></script>
+</html>

@@ -1,0 +1,72 @@
+html { height: 100%; }
+body {
+	font: normal 1em sans-serif;
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 50, 50);
+	-webkit-transition: color 0.25s linear;
+	   -moz-transition: color 0.25s linear;
+		-ms-transition: color 0.25s linear;
+		 -o-transition: color 0.25s linear;
+			transition: color 0.25s linear;
+	
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+}
+
+header, footer {
+	position: fixed;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	box-shadow: 0px 0px 8px 1px #a1a1a1;
+	min-width: 355px;	
+}
+
+footer {
+	bottom: 0;
+	min-height: 2em;
+}
+
+footer>form {
+	padding: 5px;
+}
+
+footer>form input:not([type=submit]):not([type=file]) {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 3px 1px #a1a1a1 inset;
+	font-size: 200%;
+	width: 80%;
+	padding-left: 5px;
+}
+
+#topics {
+	-webkit-column-count: 6;
+	-webkit-column-gap: 0;
+	padding-top: 6em;
+	height: 83%;
+	overflow: auto;
+}
+
+div.topic {
+	padding: 5px;
+	-webkit-column-break-inside: avoid;
+}
+
+.topic>div {	
+	padding: 10px;
+	background-color: #F9F6F4;
+	border: 1px solid #dddddd;
+}
+
+.topic p {
+	margin: 0;
+}
